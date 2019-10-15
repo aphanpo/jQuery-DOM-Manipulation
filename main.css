@@ -1,0 +1,49 @@
+html {box-sizing:border-box;}
+*, *::before, *::after {box-sizing: inherit}
+
+
+.content {
+    width: 500px;
+    height: 0px;
+    color: grey;
+    border: .5px solid rgb(119, 192, 202);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    transition: height 2s;
+    
+}
+
+.expand {
+    height: 200px;
+}
+
+li { 
+    list-style: none;
+    width: 500px;
+    background: rgb(87, 195, 211);
+    border: .5px solid rgb(59, 174, 191);
+    border-bottom: none;
+    color: white;
+    height: 50px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    text-indent: 15px;
+    padding: 0;
+
+}
+
+li:hover {
+    background: rgb(96, 215, 233);
+    cursor: pointer;
+}
+
+.content p { 
+    display: flex;
+    align-items: center;
+    padding: 14px;
+  
+}
+
+
+
